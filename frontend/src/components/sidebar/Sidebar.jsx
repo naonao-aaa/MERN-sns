@@ -1,5 +1,6 @@
 import React from 'react';
 import { Home, Search, Notifications, MessageRounded, Bookmark, Person, Settings } from "@mui/icons-material";
+import "./Sidebar.css";
 
 export default function Sidebar() {
   return (
@@ -40,6 +41,14 @@ export default function Sidebar() {
           <li className="sidebarFriend">
             <img src="/assets/person/2.jpeg" alt="" className="sidebarFriendImg" />
             <span className="sidebarFrindName">Shin Code</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/person/3.jpeg" alt="" className="sidebarFriendImg" />
+            <span className="sidebarFrindName">田中</span>
+          </li>
+          <li className="sidebarFriend">
+            <img src="/assets/person/4.jpeg" alt="" className="sidebarFriendImg" />
+            <span className="sidebarFrindName">佐藤</span>
           </li>
         </ul>
       </div>
