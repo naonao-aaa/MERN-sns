@@ -8,7 +8,6 @@ export default function Rightbar() {
         <div className="eventContainer">
           <img src="assets/star.png" alt="" className="starImg" />
           <span className="eventText"><b>フォロワー限定</b>イベント開催中！</span>
-          テスト
         </div>
         <img src="assets/event.jpeg" alt="" className="eventImg" />
         <h4 className="rightbarTitle">オンラインの友達</h4>
